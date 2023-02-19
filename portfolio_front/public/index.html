@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+ 
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>Portfolio front using React</title>
+  </head>
+
+  <body>
+
+    <div id="root"></div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./src/Images/anamarc.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="Home">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="Recent work">
+              <a class="nav-link" href="#">Recent work</a>
+            </li>
+
+            <li class="About me">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="About me">
+                <li><a class="dropdown-item" href="#">My expirience</a></li>
+                <li><a class="dropdown-item" href="#"></a> Expectations and new projects</li>
+                <li><a class="dropdown-item" href="#"></a>My labor expirience</li>
+                <li><a class="dropdown-item" href="#"></a>My strengths</li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Why me?</a></li>
+              </ul>
+            </li>
+
+            <li class="Contact Me">
+              <a class="nav-link" href="#">Contact Me</a>
+            </li>
+
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <script> src="index.js"></script>
+  </body>
+</html>
